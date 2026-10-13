@@ -194,3 +194,71 @@ button {
 button:hover {
     background-color: #b45263;
 }
+
+/* 
+
+BAKES
+
+*/
+
+#bakes {
+    padding: 24px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section__card {
+    border: 1.5px dashed #fbd9de;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 16px 16px 0;
+}
+
+.section__card--bakes {
+    background-color: #fff5f5;
+    border-right: 20px solid #e07a8b;
+}
+
+.section__title {
+    margin-bottom: 32px;
+    font-family: "Space Mono", monospace;
+    letter-spacing: 8px;
+}
+
+.bakes__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bakes__card {
+    width: calc(100% / 3 - 32px);
+    margin: 16px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+    box-decoration-break: 4px 4px 10px rgb (0 0 0 0.1);
+    text-align: center;
+}
+
+.bakes__img--wrapper img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.bakes__name {
+    font-size: 22px;
+    margin: 16px 0 8px;
+}
+
+.bakes__price {
+    font-size: 20px;
+    color: #e07a8b;
+}
